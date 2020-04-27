@@ -43,6 +43,8 @@ int main()
 
 	/* output */
 	for (size_t i = 0; i <= steps; i++) {
-    std::cout << x_vec[i][0] << ' ' << x_vec[i][1] << ' ' << x_vec[i][2] << '\n';
+		std::cout << x_vec[i][0] << ' ' << x_vec[i][1] << ' ' << x_vec[i][2]
+							<< '\n';
 	}
+  return 0;
 }
