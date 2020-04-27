@@ -1,7 +1,10 @@
 project(
-  'crtbpp',
+  'crtbp',
   'cpp',
-  version: '0.1.0'
+  version: '0.1.0',
+  default_options: [
+    'cpp_std=c++11',
+  ]
 )
 
 boost_dep = dependency('boost', version: '>=1.71')
