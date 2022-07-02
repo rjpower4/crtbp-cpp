@@ -1,0 +1,7 @@
+add_executable(test_crtbp_system test_crtbp_system.cpp)
+target_link_libraries(test_crtbp_system PRIVATE crtbp)
+target_link_libraries(test_crtbp_system PRIVATE Boost::boost)
+
+add_executable(test_integration test_integration.cpp)
+target_link_libraries(test_integration PRIVATE crtbp)
+target_link_libraries(test_integration PRIVATE Boost::boost)

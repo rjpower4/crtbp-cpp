@@ -1,0 +1,7 @@
+{
+  "name": "crtbp-cpp",
+  "version": "0.2.0",
+  "dependencies": [
+    "boost"
+  ]
+}
